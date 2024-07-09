@@ -29,12 +29,6 @@ return {
                     },
                 },
             })
-            lspconfig.mesonlsp.setup({
-                capabilities = capabilities
-            })
-            lspconfig.gleam.setup({
-                capabilities = capabilities
-            })
             lspconfig.lua_ls.setup({
                 capabilities = capabilities
             })
