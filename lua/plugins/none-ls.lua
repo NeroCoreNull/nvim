@@ -8,9 +8,6 @@ return {
                 null_ls.builtins.formatting.black,
                 null_ls.builtins.formatting.isort,
                 null_ls.builtins.completion.spell,
-                null_ls.builtins.completion.tags,
-                null_ls.builtins.formatting.swiftlint,
-                null_ls.builtins.diagnostics.swiftlint,
             },
         })
 
